@@ -10,3 +10,14 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+
+  
+{
+  function dosomething(){
+    for(var i=1;i<5;i++){
+    console.log(i);
+  }
+  console.log('finally:'+ i);
+}
+ dosomething();
+}
